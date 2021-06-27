@@ -1,0 +1,44 @@
+.menu{
+  text-align: center;
+}
+.intro{
+  border:5px solid black;
+  text-align: center;
+  margin-bottom: 16px;
+  background-color:lightgreen;
+}
+.education{
+  border:5px solid black;
+  padding:4px;
+  padding-top: 55px;
+  margin-bottom:16px;
+  background-color:peachpuff;
+}
+.name1{
+  position:relative;
+  float:right;
+  border:5px solid black;
+  border-top:0;
+  border-right: 0;
+  padding:10px;
+  margin-top: 0px;
+  bottom:55px;
+  left:4px;
+}
+.techi{
+  border:5px solid black;
+  padding:4px;
+  padding-top:55px;
+  background-color:powderblue;
+}
+.name2{
+  position:relative;
+  float:right;
+  border:5px solid black;
+  border-top:0;
+  border-right: 0;
+  padding:10px;
+  bottom:55px;
+  left:4px;
+  margin-top:0;
+}
