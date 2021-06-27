@@ -1,8 +1,9 @@
-*{
-	box-sizing: border-box;
-}
 body{
 	font-family: "Comic Sans MS";
+}
+section{
+	position: relative;
+	float:left;
 }
 #menu
 {
@@ -11,7 +12,7 @@ body{
 #p1,#p2,#p3{
   border: 5px solid black;
   height: auto;
-  margin-right: 10%;
+  margin-right:10%;
   margin-top:0px;
   color: black;
   padding: 2%;
@@ -63,25 +64,27 @@ body{
   right:10%;
   background-color: yellow;
 }
-@media (min-width: 992px) {
-  .col-lg-4 {
-  	float: left;
-    width: 33.33%;
+@media (min-width:992px) {
+	.col-lg-4 {
+		width: 33.33%;
   }
-@media (min-width: 768px) and (max-width:991px) {
-.col-md-6{
-	float:left;
-	width:50%;
 }
-.col-md-12{
-	float:left;
-	width:100%;
-}
-  
+@media (min-width:768px) and (max-width:991px) {
+	#col-md-6{
+		width:50%;
+	}
+	#col-md-12{
+		width:100%;
+	}
+	#col-md-12 #p3{
+		margin-right: 4.5%;
+	}
+	#col-md-12 .name3{
+		right:4.5%;
+	}
 }
 @media (min-width:0px) and (max-width:767px){
-  .col-sm-12 {
-  	float:left;
-    width: 100%;
+	.col-sm-12 {
+		width: 100%;
   }
 }
