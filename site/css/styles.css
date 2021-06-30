@@ -1,0 +1,33 @@
+body{
+	background-color: #61122f;
+	font-size: 16px;
+	font-family:'oxygen',sans-serif;
+	color:#fff;
+}
+#header-nav{
+	background-color:#f6b319;
+	border-radius:0;
+	border:0;
+}
+#logo-img{
+	width:150px;
+	height: 150px;
+	margin: 10px 15px 10px 0px;
+}
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color:green;
+	margin-top:0;
+	margin-bottom:0;
+	font-size:1.5em;
+	font-weight:bold;
+	text-shadow:1px 1px black;
+}
+.navbar-brand a:hover, .navbar-brand a:visited{
+	text-decoration:none;
+}
+.navbar-brand p{
+	color:black;
+	font-size:0.7em;
+	margin-top:15px;
+}
