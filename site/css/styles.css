@@ -31,3 +31,40 @@ body{
 	font-size:0.7em;
 	margin-top:15px;
 }
+.navbar-brand p span{
+	vertical-align: middle
+}
+#nav-list{
+	margin-top:10px;
+}
+#nav-list a{
+	color: #951C49;
+	text-align:center;
+}
+#nav-list a:hover{
+	background:#E7E7E7;
+}
+#phone div{
+	color:#557c3e;
+	text-align:right;
+	padding-right:15px;
+}
+#phone a{
+	padding-bottom:0;
+	text-align: right;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid #61122f;
+}
+.navbar-header button.navbar-toggle{
+	clear:both;
+}
+#call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }

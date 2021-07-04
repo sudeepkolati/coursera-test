@@ -1,44 +1,25 @@
-.menu{
-  text-align: center;
+#header-nav{
+  background-color:lightsteelblue;
+  height:130px;
+  margin-bottom: 0px;
+  border-radius:0;
 }
-.intro{
-  border:5px solid black;
-  text-align: center;
-  margin-bottom: 16px;
-  background-color:lightgreen;
+#header-nav1{
+	border-radius: 0;
 }
-.education{
-  border:5px solid black;
-  padding:4px;
-  padding-top: 55px;
-  margin-bottom:16px;
-  background-color:peachpuff;
-}
-.name1{
-  position:relative;
-  float:right;
-  border:5px solid black;
-  border-top:0;
-  border-right: 0;
-  padding:10px;
-  margin-top: 0px;
-  bottom:55px;
-  left:4px;
-}
-.techi{
-  border:5px solid black;
-  padding:4px;
-  padding-top:55px;
-  background-color:powderblue;
-}
-.name2{
-  position:relative;
-  float:right;
-  border:5px solid black;
-  border-top:0;
-  border-right: 0;
-  padding:10px;
-  bottom:55px;
-  left:4px;
-  margin-top:0;
+#brand{
+  padding:0px;
+  padding-left:15px;
+ }
+ #brand h1{
+  margin-top: 15px;
+  font-family: 'Crimson Text', serif;
+  color:black;
+ }
+ #nav-list{
+   font-family: 'Crimson Text', serif;
+ }
+#about,#education,#tech,#schol,#certi{
+  font-family: 'Crimson Text', serif;
+  font-size: 16px;
 }
